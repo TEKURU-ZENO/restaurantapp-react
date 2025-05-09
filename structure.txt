@@ -1,0 +1,66 @@
+restaurant-app/
+├── public/
+│   ├── index.html
+│   ├── favicon.ico
+│   ├── manifest.json
+│   ├── robots.txt
+│   └── assets/
+│       └── images/
+│           ├── logo.png
+│           ├── hero-bg.jpg
+│           ├── about-img.jpg
+│           ├── menu/
+│           │   └── [menu item images]
+│           └── testimonials/
+│               └── [testimonial images]
+├── src/
+│   ├── App.js
+│   ├── index.js
+│   ├── styles/
+│   │   ├── global.css
+│   │   ├── variables.css
+│   │   └── animations.css
+│   ├── context/
+│   │   └── ThemeContext.js
+│   ├── pages/
+│   │   ├── Home.js
+│   │   ├── Menu.js
+│   │   └── Contact.js
+│   ├── components/
+│   │   ├── common/
+│   │   │   ├── Navbar.js
+│   │   │   ├── Footer.js
+│   │   │   ├── ThemeToggle.js
+│   │   │   ├── Button.js
+│   │   │   └── ScrollToTop.js
+│   │   ├── home/
+│   │   │   ├── Hero.js
+│   │   │   ├── AboutUs.js
+│   │   │   ├── TestimonialCarousel.js
+│   │   │   ├── TestimonialCard.js
+│   │   │   └── FeaturedDishes.js
+│   │   ├── menu/
+│   │   │   ├── CategoryFilter.js
+│   │   │   ├── MenuSection.js
+│   │   │   ├── ProductCard.js
+│   │   │   └── StarRating.js
+│   │   └── contact/
+│   │       ├── ContactForm.js
+│   │       ├── LocationMap.js
+│   │       └── BusinessHours.js
+│   ├── data/
+│   │   ├── menuData.js
+│   │   └── testimonialsData.js
+│   ├── utils/
+│   │   ├── scrollAnimation.js
+│   │   └── helpers.js
+│   └── hooks/
+│       ├── useScrollPosition.js
+│       └── useLocalStorage.js
+├── .env
+├── .env.example
+├── .gitignore
+├── package.json
+├── package-lock.json
+├── README.md
+└── vercel.json (or netlify.toml, depending on deployment platform)
